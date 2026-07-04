@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Build output
+build/
+cmake-build-*/
+
+# Object / binary artifacts
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.a
+*.su
+*.d
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# STM32CubeIDE / CubeMX
+Debug/
+Release/
+.settings/
+.cproject
+.project
